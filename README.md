@@ -21,8 +21,9 @@
 
 
 ## About the project
+
 ```
-This project provides APIs for a VueJs project
+This project provides APIs for a VueJs project (https://github.com/GustavoPMex/todo-example-vuejs)
 ```
 
 ### Project setup
