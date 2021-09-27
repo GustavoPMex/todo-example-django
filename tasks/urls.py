@@ -1,8 +1,10 @@
-from rest_framework import routers, urlpatterns
-from .viewsets import tasksViewSet
+from django.urls import path
+from .apiviews import taskList, EditTask, DeleteTask
 
 
-router = routers.SimpleRouter()
-router.register('tasks', tasksViewSet)
+urlpatterns = [
+    path('v1/tasks/', taskList.as_view(), name='list'),
+    path('v1/tasks/edit/<int:pk>/', EditTask.as_view(), name='edit_task'),
+    path('v1/tasks/delete/<int:pk>/', DeleteTask.as_view(), name='delete_task')
 
-urlpatterns = router.urls
+]
