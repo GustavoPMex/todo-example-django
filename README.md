@@ -3,7 +3,7 @@
 		<img src="https://img.shields.io/github/last-commit/gustavopmex/todo-example-django?style=for-the-badge" alt="last-commit">
 	</a>
 	<a href="#changelog">
-		<img src="https://img.shields.io/github/languages/count/gustavopmex/todo-example-vuejs?style=for-the-badge" alt="langs">
+		<img src="https://img.shields.io/github/languages/count/gustavopmex/todo-example-django?style=for-the-badge" alt="langs">
 	</a>
 </div>
 
@@ -22,7 +22,7 @@
 
 ## About the project
 ```
-This project is a practice for using APIs provided by a Django project
+This project provides APIs for a VueJs project
 ```
 
 ### Project setup
